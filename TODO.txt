@@ -1,0 +1,49 @@
+## General 
+
+- handle the case when a recipe doesn't have an image
+- add a category to each recipe
+- example: mark 'chocolate' as ingredient if they wrote (milk chocolate,dark etc..)
+- make different types of ingredients category (for recipes that require one of a group)
+
+- save the current ingredients when exiting the app
+- sort the ingredients in the first activity
+- check whats going on with the shared preferences
+
+- check the sorts
+
+- put extra: deletes after we finish?
+
+
+#### First Activity 
+- Database is loaded every time we enter the activity, is there a way to avoid it? (need to read about "Activity life cycle")
+
+#### Fourth Activity 
+- Checkbox: will only show existing items AFTER clicking any checkbox, and will only mark the existing items
+  that are in the current view. god help me.
+  ALSO, scrolling down remove the check from the boxes
+  
+#### Details Activity 
+- image doesn't show up
+
+## Questions 
+- Activity's data is deleted once we leave it, is it possible to preserve its information? (without having to load it all over again, e.g. SharedPreferences)
+
+## Improvements 
+
+#### FirstActivity 
+
+- auto-complete:
+since we don't use dynamic arrays, the possible ingredients array has a fixed size and therefore has null slots.
+the adapter for the auto-complete requires array Without null slots, forcing us to copy the entire string array.
+
+- passing to Fourth Activity:
+we pass 2 arrays:
+1) Possible Ingredients array
+2) String array which contains the names of all the ingredients existing in the list
+then, when we start Fourth activity, we have to find the index of each ingredient from the second array in the the first array.
+
+Can we pass the information to the fourth activity more efficiently?
+
+ 
+## How to write cool
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
