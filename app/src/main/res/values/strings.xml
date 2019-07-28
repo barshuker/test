@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+    <resources>
+
+    <string name="app_name">FinalProj</string>
+
+    <string name="default_text">Item Number 1</string>
+
+    <string name="rankdefault_text">50%</string>
+
+    <string name="MainActivityBtn1">הוסף מצרכים לרשימה</string>
+
+    <string name="MainActivityBtn2">מתכונים אפשריים</string>
+
+    <string name="FirstActivityTextview1">רשום את שם המצרך</string>
+
+    <string name="FirstActivityBtn1">מצרכים אפשריים</string>
+
+    <string name="FirstActivityBtn2">מחק רשימה</string>
+
+    <string name="DetailsActivityBtn">כנס לאתר</string>
+
+    <string name="NameAlreadyExists">המצרך כבר קיים ברשימה</string>
+
+    <string name="IngredientDoesntExist">המצרך לא קיים</string>
+
+    <string name="FailedCommunicationAlert">החיבור לשרת נכשל. לניסיון נוסף נא חזרו לתפריט הראשי וחזרו למסך זה.</string>
+
+    <string name="AlertConfirmationMessage">אישור</string>
+
+    <string name="ConnectionSucceedToast">החיבור לשרת הצליח</string>
+
+</resources>
